@@ -32,10 +32,6 @@
 #app-mount .standardSidebarView__1129a .contentRegion__0bec1 {
   background: transparent;
 }
-:root {
-	--accent-1: rgba(140,25,255);
-	--accent-3: rgba(140,25,255);
-}
 .theme-light {
 	--text-link: var(--accent-5);
 }
