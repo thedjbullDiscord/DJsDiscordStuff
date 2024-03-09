@@ -28,3 +28,14 @@
 #app-mount .standardSidebarView__1129a .contentRegion__0bec1 {
   background: transparent;
 }
+:root {
+    --accent-color-2: 140,25,255;
+    --font-in-accent: 0, 0, 0;             
+   }
+
+#app-mount .actionButtons_b58cbb .lookFilled__19298.colorBrand_b2253e,
+#app-mount .actionButtons_b58cbb .lookFilled-yCfaCM.colorBrand-I6CyqQ,
+#app-mount .actionButtons_b58cbb .lookFilled-yCfaCM.colorPrimary-2AuQVo {
+  color: rgb(var(--font-in-accent)) !important;
+  background: linear-gradient(135deg, rgb(140,25,255), rgb(var(--accent-color-2)));
+}
