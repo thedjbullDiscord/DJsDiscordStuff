@@ -2,8 +2,10 @@
   --background-primary: rgba(30,32,34,0.8);
   --background-secondary: rgba(30,32,34,0.6);
   --brand-experiment: rgba(140,25,255);
-    --accent-color-2: rgba(140,25,255);
-    --font-in-accent: rgba(0, 0, 0);
+  --accent-color-2: rgba(140,25,255);
+  --font-in-accent: rgba(0, 0, 0);
+	--accent-1: rgba(140,25,255);
+	--accent-3: rgba(140,25,255);
 }
 .bg__12180 {
   background: rgba(40,42,44,0.8);
@@ -30,9 +32,15 @@
 #app-mount .standardSidebarView__1129a .contentRegion__0bec1 {
   background: transparent;
 }
-#app-mount .actionButtons_b58cbb .lookFilled__19298.colorBrand_b2253e,
-#app-mount .actionButtons_b58cbb .lookFilled-yCfaCM.colorBrand-I6CyqQ,
-#app-mount .actionButtons_b58cbb .lookFilled-yCfaCM.colorPrimary-2AuQVo {
-  color: rgb(var(--font-in-accent)) !important;
-  background: linear-gradient(135deg, rgb(140,25,255), rgb(var(--accent-color-2)));
+:root {
+	--accent-1: rgba(140,25,255);
+	--accent-3: rgba(140,25,255);
+}
+.theme-light {
+	--text-link: var(--accent-5);
+}
+html.theme-light,
+.theme-dark {
+	--green-330: var(--accent-1);
+	--green-360: var(--accent-3);
 }
