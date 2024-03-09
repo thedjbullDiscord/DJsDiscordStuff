@@ -39,4 +39,4 @@
 }
 #app-mount .channelTextArea__2e60f:focus-within {
   border-color: rgb(var(--accent));
-  box-shadow: 0 0 calc(var(--input-glow-intensity) * 20px) calc(var(--input-glow-intensity) * 5px) rgb(var(--accent), 1);
+  box-shadow: 0 0 calc(var(--input-glow-intensity) * 10px) calc(var(--input-glow-intensity) * 5px) rgb(var(--accent), 1);
