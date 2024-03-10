@@ -1,9 +1,9 @@
 :root {
-  --background-primary: rgba(30,32,34,0.8);
-  --background-secondary: rgba(30,32,34,0.6);
-  --brand-experiment: rgba(140,25,255);
-  --accent-color-2: rgba(140,25,255);
-  --font-in-accent: rgba(0, 0, 0);
+	--background-primary: rgba(30,32,34,0.8);
+	--background-secondary: rgba(30,32,34,0.6);
+	--brand-experiment: rgba(140,25,255);
+	--accent-color-2: rgba(140,25,255);
+	--font-in-accent: rgba(0, 0, 0);
 	--accent-1: rgba(140,25,255);
 	--accent-3: rgba(140,25,255);
 }
@@ -39,4 +39,9 @@ html.theme-light,
 .theme-dark {
 	--green-330: var(--accent-1);
 	--green-360: var(--accent-3);
+}
+.container_ca50b9 
+.numberBadge__50328 
+.toolbar__88c63 
+	--status-danger: var(--accent-2);
 }
