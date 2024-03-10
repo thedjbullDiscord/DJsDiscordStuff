@@ -5,6 +5,7 @@
 	--accent-color-2: rgba(140,25,255);
 	--font-in-accent: rgba(0, 0, 0);
 	--accent-1: rgba(140,25,255);
+	--accent-2: rgba(140,25,255);
 	--accent-3: rgba(140,25,255);
 }
 .bg__12180 {
