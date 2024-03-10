@@ -41,8 +41,8 @@ html.theme-light,
 	--green-330: var(--accent-1);
 	--green-360: var(--accent-3);
 }
-.container_ca50b9 
-.numberBadge__50328 
-.toolbar__88c63 
+.container_ca50b9 /* user panel button strikethroughs */,
+.numberBadge__50328 /* unread number badge */,
+.toolbar__88c63 /* toolbar button strikethroughs */ {
 	--status-danger: var(--accent-2);
 }
