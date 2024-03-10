@@ -46,3 +46,6 @@ html.theme-light,
 .toolbar__88c63 /* toolbar button strikethroughs */ {
 	--status-danger: var(--accent-2);
 }
+.vc-spotify-shuffle-on, .vc-spotify-repeat-context, .vc-spotify-repeat-track, .vc-spotify-shuffle-on:hover, .vc-spotify-repeat-context:hover, .vc-spotify-repeat-track:hover {
+    color: var(--brand-experiment);
+}
