@@ -7,6 +7,7 @@
 	--accent-1: rgba(140,25,255);
 	--accent-2: rgba(140,25,255);
 	--accent-3: rgba(140,25,255);
+	--vc-spotify-green: rgba(140,25,255);
 }
 .bg__12180 {
   background: rgba(40,42,44,0.8);
