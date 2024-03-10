@@ -2,11 +2,7 @@
 	--background-primary: rgba(30,32,34,0.8);
 	--background-secondary: rgba(30,32,34,0.6);
 	--brand-experiment: rgba(140,25,255);
-	--accent-color-2: rgba(140,25,255);
 	--font-in-accent: rgba(0, 0, 0);
-	--accent-1: rgba(140,25,255);
-	--accent-2: rgba(140,25,255);
-	--accent-3: rgba(140,25,255);
 }
 .bg__12180 {
   background: rgba(40,42,44,0.8);
@@ -34,17 +30,15 @@
   background: transparent;
 }
 .theme-light {
-	--text-link: var(--accent-5);
+	--text-link: var(--brand-experiment);
 }
 html.theme-light,
 .theme-dark {
-	--green-330: var(--accent-1);
-	--green-360: var(--accent-3);
+	--green-330: var(--brand-experiment);
+	--green-360: var(--brand-experiment);
 }
-.container_ca50b9 /* user panel button strikethroughs */,
-.numberBadge__50328 /* unread number badge */,
-.toolbar__88c63 /* toolbar button strikethroughs */ {
-	--status-danger: var(--accent-2);
+.container_ca50b9, .numberBadge__50328, .toolbar__88c63 {
+	--status-danger: var(--brand-experiment);
 }
 .vc-spotify-shuffle-on, .vc-spotify-repeat-context, .vc-spotify-repeat-track, .vc-spotify-shuffle-on:hover, .vc-spotify-repeat-context:hover, .vc-spotify-repeat-track:hover {
     color: var(--brand-experiment);
