@@ -1,6 +1,8 @@
 :root {
+}
+.theme-dark {
 	--background-primary: rgba(30,32,34,0.8);
-	--background-secondary: rgba(30,32,34,0.6);
+	--background-secondary: rgba(30,32,34,0.7);
 	--brand-experiment: rgba(140,25,255);
 	--font-in-accent: rgba(0, 0, 0);
 }
@@ -10,11 +12,6 @@
 .layer__2efaa {
   background: transparent;
 }
-.layers__1c917 > .layers__1c917 .animating__27211 *,
-.layers__1c917 > .layer__2efaa .animating__27211 {
-  pointer-events: auto !important;
-  will-change: unset;
-}
 .layers__1c917 .baseLayer__8fda3 {
   opacity: 1 !important;
   transform: unset !important;
@@ -23,15 +20,6 @@
 .layer__2efaa {
   z-index: 2;
 }
-#app-mount .standardSidebarView__1129a {
-  background: rgba(40,42,44,0.8);
-}
-#app-mount .standardSidebarView__1129a .contentRegion__0bec1 {
-  background: transparent;
-}
-.theme-light {
-	--text-link: var(--brand-experiment);
-}
 html.theme-light,
 .theme-dark {
 	--green-330: var(--brand-experiment);
@@ -39,6 +27,12 @@ html.theme-light,
 }
 .container_ca50b9, .numberBadge__50328, .toolbar__88c63 {
 	--status-danger: var(--brand-experiment);
+}
+.vc-spotify-shuffle-on, .vc-spotify-repeat-context, .vc-spotify-repeat-track, .vc-spotify-shuffle-on:hover, .vc-spotify-repeat-context:hover, .vc-spotify-repeat-track:hover {
+    color: var(--brand-experiment);
+}
+theme-dark container__11d72 themed_b152d4 {
+    background-color: var(--brand-experiment);
 }
 .vc-spotify-shuffle-on, .vc-spotify-repeat-context, .vc-spotify-repeat-track, .vc-spotify-shuffle-on:hover, .vc-spotify-repeat-context:hover, .vc-spotify-repeat-track:hover {
     color: var(--brand-experiment);
